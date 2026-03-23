@@ -19,27 +19,27 @@ scale-info = { version = "2.10.0", default-features = false, features = [
 sp-avn-common = { default-features = false, path = "../../primitives/avn-common" }
 pallet-avn = { default-features = false, path = "../avn" }
 
-sp-std = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-runtime = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-core = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-std = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-runtime = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-core = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
 
-frame-support = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
-frame-system = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+frame-support = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+frame-system = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
 
 # Optional imports for benchmarking
-frame-benchmarking = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick", optional = true }
-sp-application-crypto = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+frame-benchmarking = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick", optional = true }
+sp-application-crypto = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
 
 [dev-dependencies]
 parking_lot = { version = "0.12.0" }
-sp-io = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-keystore = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
-pallet-scheduler = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-io = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-keystore = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+pallet-scheduler = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
 pallet-session = { features = [
 	"historical",
-], git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick", default-features = false }
-pallet-balances = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick",features=["insecure_zero_ed"] }
-pallet-timestamp = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+], git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick", default-features = false }
+pallet-balances = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick",features=["insecure_zero_ed"] }
+pallet-timestamp = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
 
 pallet-avn-proxy = { path = "../avn-proxy" }
 pallet-token-manager = { path = "../token-manager" }
