@@ -34,66 +34,66 @@ avn-parachain-runtime = { path = "../runtime/avn", optional = true }
 avn-test-runtime = { package = "avn-parachain-test-runtime", path = "../runtime/test", optional = true }
 
 # Substrate
-frame-benchmarking = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-basic-authorship = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-chain-spec = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-client-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-offchain = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-consensus = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-executor = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-keystore = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-network = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-network-sync = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-network-common = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-rpc = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-sysinfo = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-telemetry = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-tracing = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-transaction-pool = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-transaction-pool-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-block-builder = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-blockchain = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-consensus-aura = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-keystore = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-offchain = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-io = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-session = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-timestamp = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-transaction-pool = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-substrate-frame-rpc-system = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-substrate-prometheus-endpoint = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-try-runtime-cli = { git = "https://github.com/paritytech/polkadot-sdk", optional = true, branch = "release-polkadot-v1.6.0" }
-node-primitives = { version = "2.0.0", git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+frame-benchmarking = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+frame-benchmarking-cli = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+pallet-transaction-payment-rpc = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-basic-authorship = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-chain-spec = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-cli = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-client-api = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-offchain = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-consensus = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-executor = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-keystore = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-network = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-network-sync = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-network-common = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-rpc = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-service = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-sysinfo = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-telemetry = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-tracing = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-transaction-pool = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sc-transaction-pool-api = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-api = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-block-builder = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-blockchain = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-consensus-aura = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-core = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-keystore = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-offchain = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-io = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-runtime = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-session = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-timestamp = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-transaction-pool = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+substrate-frame-rpc-system = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+substrate-prometheus-endpoint = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+try-runtime-cli = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", optional = true, branch = "release-polkadot-v1.6.0-cherrypick" }
+node-primitives = { version = "2.0.0", git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
 
 # AvN dependencies
-sp-authority-discovery = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-pallet-im-online = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+sp-authority-discovery = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+pallet-im-online = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
 sp-avn-common = { path = "../primitives/avn-common"}
 
 # Polkadot
-polkadot-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-polkadot-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-xcm = { package = "staging-xcm", git = "https://github.com/paritytech/polkadot-sdk", default-features = false, branch = "release-polkadot-v1.6.0" }
+polkadot-cli = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+polkadot-primitives = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+polkadot-service = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+xcm = { package = "staging-xcm", git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", default-features = false, branch = "release-polkadot-v1.6.0-cherrypick" }
 
 # Cumulus
-cumulus-client-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-collator = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-consensus-aura = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-consensus-common = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-consensus-proposer = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-network = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-primitives-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-relay-chain-interface = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+cumulus-client-cli = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-client-collator = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-client-consensus-aura = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-client-consensus-common = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-client-consensus-proposer = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-client-network = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-client-service = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-primitives-core = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-primitives-parachain-inherent = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
+cumulus-relay-chain-interface = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
 
 # AvN
 avn-service = { path = "avn-service" }
@@ -104,7 +104,7 @@ pallet-avn = { path = "../pallets/avn", default-features = false }
 web3 = { version = "0.18.0", features = ["signing"] }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+substrate-build-script-utils = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
 
 [features]
 default = ["avn-native-runtime"]
@@ -133,4 +133,4 @@ test-native-runtime = ["avn-test-runtime"]
 
 [dev-dependencies]
 tempfile = "3.1.0"
-sp-version = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+sp-version = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk-fork", branch = "release-polkadot-v1.6.0-cherrypick" }
