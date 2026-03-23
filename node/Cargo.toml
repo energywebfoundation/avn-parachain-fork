@@ -34,66 +34,66 @@ avn-parachain-runtime = { path = "../runtime/avn", optional = true }
 avn-test-runtime = { package = "avn-parachain-test-runtime", path = "../runtime/test", optional = true }
 
 # Substrate
-frame-benchmarking = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-frame-benchmarking-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-pallet-transaction-payment-rpc = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-basic-authorship = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-chain-spec = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-client-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-offchain = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-consensus = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-executor = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-keystore = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-network = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-network-sync = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-network-common = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-rpc = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-sysinfo = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-telemetry = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-tracing = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-transaction-pool = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-transaction-pool-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-block-builder = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-blockchain = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-consensus-aura = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-keystore = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-offchain = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-io = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-session = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-timestamp = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-transaction-pool = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-substrate-frame-rpc-system = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-substrate-prometheus-endpoint = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-try-runtime-cli = { git = "https://github.com/paritytech/polkadot-sdk", optional = true, branch = "release-polkadot-v1.6.0" }
-node-primitives = { version = "2.0.0", git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+frame-benchmarking = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+frame-benchmarking-cli = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+pallet-transaction-payment-rpc = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-basic-authorship = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-chain-spec = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-cli = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-client-api = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-offchain = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-consensus = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-executor = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-keystore = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-network = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-network-sync = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-network-common = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-rpc = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-service = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-sysinfo = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-telemetry = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-tracing = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-transaction-pool = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-transaction-pool-api = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-api = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-block-builder = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-blockchain = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-consensus-aura = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-core = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-keystore = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-offchain = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-io = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-runtime = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-session = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-timestamp = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-transaction-pool = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+substrate-frame-rpc-system = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+substrate-prometheus-endpoint = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+try-runtime-cli = { git = "https://github.com/energywebfoundation/polkadot-sdk", optional = true, branch = "polkadot-release-v1.6.0-233-hotfix" }
+node-primitives = { version = "2.0.0", git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
 
 # AvN dependencies
-sp-authority-discovery = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-pallet-im-online = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+sp-authority-discovery = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+pallet-im-online = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
 sp-avn-common = { path = "../primitives/avn-common"}
 
 # Polkadot
-polkadot-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-polkadot-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-xcm = { package = "staging-xcm", git = "https://github.com/paritytech/polkadot-sdk", default-features = false, branch = "release-polkadot-v1.6.0" }
+polkadot-cli = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+polkadot-primitives = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+polkadot-service = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+xcm = { package = "staging-xcm", git = "https://github.com/energywebfoundation/polkadot-sdk", default-features = false, branch = "polkadot-release-v1.6.0-233-hotfix" }
 
 # Cumulus
-cumulus-client-cli = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-collator = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-consensus-aura = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-consensus-common = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-consensus-proposer = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-network = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-client-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-primitives-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-primitives-parachain-inherent = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-cumulus-relay-chain-interface = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+cumulus-client-cli = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-client-collator = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-client-consensus-aura = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-client-consensus-common = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-client-consensus-proposer = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-client-network = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-client-service = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-primitives-core = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-primitives-parachain-inherent = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+cumulus-relay-chain-interface = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
 
 # AvN
 avn-service = { path = "avn-service" }
@@ -104,7 +104,7 @@ pallet-avn = { path = "../pallets/avn", default-features = false }
 web3 = { version = "0.18.0", features = ["signing"] }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+substrate-build-script-utils = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
 
 [features]
 default = ["avn-native-runtime"]
@@ -133,4 +133,4 @@ test-native-runtime = ["avn-test-runtime"]
 
 [dev-dependencies]
 tempfile = "3.1.0"
-sp-version = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+sp-version = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
