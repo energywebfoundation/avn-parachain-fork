@@ -28,28 +28,28 @@ sha3 = { version = "0.8", default-features = false, optional = true }
 sp-avn-common = { default-features = false, path = "../../primitives/avn-common" }
 pallet-avn = { default-features = false, path = "../avn" }
 
-sp-std = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-runtime = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-core = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-state-machine = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+sp-std = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
+sp-runtime = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
+sp-core = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
+sp-state-machine = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
 
-frame-support = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
-frame-system = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+frame-support = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
+frame-system = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
 pallet-session = { features = [
 	"historical",
-], git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick", default-features = false }
-pallet-timestamp = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick", default-features = false }
+], git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix", default-features = false }
+pallet-timestamp = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix", default-features = false }
 
 # Optional imports for benchmarking
-frame-benchmarking = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick", optional = true }
+frame-benchmarking = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix", optional = true }
 
 [dev-dependencies]
-sp-io = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
-sp-application-crypto = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
-pallet-balances = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick", features=["insecure_zero_ed"] }
+sp-io = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
+sp-application-crypto = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
+pallet-balances = { git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix", features=["insecure_zero_ed"] }
 parking_lot = { version = "0.12.0" }
 
-substrate-test-utils = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-cherrypick" }
+substrate-test-utils = { default-features = false, git = "ssh://git@github.com/energywebfoundation/polkadot-sdk", branch = "release-polkadot-v1.6.0-data-size-fix" }
 pallet-eth-bridge = { default-features = false, path = "../eth-bridge" }
 
 

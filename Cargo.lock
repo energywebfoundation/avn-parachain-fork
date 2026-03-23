@@ -1371,7 +1371,7 @@ dependencies = [
  "sp-offchain",
  "sp-runtime",
  "sp-session",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-transaction-pool",
  "sp-version",
  "staging-parachain-info",
@@ -1454,7 +1454,7 @@ dependencies = [
  "sp-offchain",
  "sp-runtime",
  "sp-session",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-transaction-pool",
  "sp-version",
  "staging-parachain-info",
@@ -1604,7 +1604,7 @@ dependencies = [
 [[package]]
 name = "binary-merkle-tree"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "hash-db",
  "log",
@@ -1875,7 +1875,7 @@ dependencies = [
 [[package]]
 name = "bp-xcm-bridge-hub-router"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
@@ -2729,7 +2729,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-cli"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "clap 4.4.14",
  "parity-scale-codec 3.6.11",
@@ -2746,7 +2746,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-collator"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-client-consensus-common",
  "cumulus-client-network",
@@ -2769,7 +2769,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-consensus-aura"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-client-collator",
@@ -2811,7 +2811,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-consensus-common"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-client-pov-recovery",
@@ -2840,7 +2840,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-consensus-proposer"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -2855,7 +2855,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-network"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-relay-chain-interface",
@@ -2878,7 +2878,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-parachain-inherent"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -2893,8 +2893,8 @@ dependencies = [
  "sp-inherents",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "tracing",
 ]
@@ -2902,7 +2902,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-pov-recovery"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -2926,7 +2926,7 @@ dependencies = [
 [[package]]
 name = "cumulus-client-service"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-client-cli",
  "cumulus-client-collator",
@@ -2962,7 +2962,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-aura-ext"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-pallet-parachain-system",
  "frame-support",
@@ -2974,13 +2974,13 @@ dependencies = [
  "sp-application-crypto",
  "sp-consensus-aura",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "cumulus-pallet-parachain-system"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bytes",
  "cumulus-pallet-parachain-system-proc-macro",
@@ -2999,12 +2999,12 @@ dependencies = [
  "polkadot-runtime-parachains",
  "scale-info",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-inherents",
  "sp-io",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "sp-version",
  "staging-xcm",
@@ -3014,7 +3014,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-parachain-system-proc-macro"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro-crate 3.0.0",
  "proc-macro2",
@@ -3025,7 +3025,7 @@ dependencies = [
 [[package]]
 name = "cumulus-pallet-session-benchmarking"
 version = "3.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -3033,13 +3033,13 @@ dependencies = [
  "pallet-session",
  "parity-scale-codec 3.6.11",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "cumulus-pallet-xcm"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -3048,14 +3048,14 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
 ]
 
 [[package]]
 name = "cumulus-pallet-xcmp-queue"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bounded-collections",
  "bp-xcm-bridge-hub-router",
@@ -3072,7 +3072,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
  "staging-xcm-executor",
 ]
@@ -3080,7 +3080,7 @@ dependencies = [
 [[package]]
 name = "cumulus-primitives-aura"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "polkadot-core-primitives",
@@ -3088,13 +3088,13 @@ dependencies = [
  "sp-api",
  "sp-consensus-aura",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "cumulus-primitives-core"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "polkadot-core-primitives",
@@ -3103,7 +3103,7 @@ dependencies = [
  "scale-info",
  "sp-api",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "staging-xcm",
 ]
@@ -3111,7 +3111,7 @@ dependencies = [
 [[package]]
 name = "cumulus-primitives-parachain-inherent"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -3119,37 +3119,37 @@ dependencies = [
  "scale-info",
  "sp-core",
  "sp-inherents",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
 ]
 
 [[package]]
 name = "cumulus-primitives-proof-size-hostfunction"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
 ]
 
 [[package]]
 name = "cumulus-primitives-timestamp"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-primitives-core",
  "futures",
  "parity-scale-codec 3.6.11",
  "sp-inherents",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-timestamp",
 ]
 
 [[package]]
 name = "cumulus-primitives-utility"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -3160,7 +3160,7 @@ dependencies = [
  "polkadot-runtime-parachains",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
  "staging-xcm-builder",
  "staging-xcm-executor",
@@ -3169,7 +3169,7 @@ dependencies = [
 [[package]]
 name = "cumulus-relay-chain-inprocess-interface"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -3193,7 +3193,7 @@ dependencies = [
 [[package]]
 name = "cumulus-relay-chain-interface"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -3211,7 +3211,7 @@ dependencies = [
 [[package]]
 name = "cumulus-relay-chain-minimal-node"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "async-trait",
@@ -3252,7 +3252,7 @@ dependencies = [
 [[package]]
 name = "cumulus-relay-chain-rpc-interface"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "cumulus-primitives-core",
@@ -3279,7 +3279,7 @@ dependencies = [
  "sp-core",
  "sp-runtime",
  "sp-state-machine",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-version",
  "thiserror",
  "tokio",
@@ -3291,14 +3291,14 @@ dependencies = [
 [[package]]
 name = "cumulus-test-relay-sproof-builder"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-primitives-core",
  "parity-scale-codec 3.6.11",
  "polkadot-primitives",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
 ]
 
@@ -4307,7 +4307,7 @@ checksum = "00b0228411908ca8685dba7fc2cdd70ec9990a6e753e89b6ac91a84c40fbaf4b"
 [[package]]
 name = "fork-tree"
 version = "3.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
 ]
@@ -4330,7 +4330,7 @@ checksum = "6c2141d6d6c8512188a7891b4b01590a45f6dac67afb4f255c4124dbb86d4eaa"
 [[package]]
 name = "frame-benchmarking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-support-procedural",
@@ -4346,16 +4346,16 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "static_assertions",
 ]
 
 [[package]]
 name = "frame-benchmarking-cli"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "Inflector",
  "array-bytes 6.2.3",
@@ -4387,15 +4387,15 @@ dependencies = [
  "sp-blockchain",
  "sp-core",
  "sp-database",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-inherents",
  "sp-io",
  "sp-keystore",
  "sp-runtime",
  "sp-state-machine",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
  "thousands",
 ]
@@ -4403,7 +4403,7 @@ dependencies = [
 [[package]]
 name = "frame-election-provider-solution-type"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro-crate 3.0.0",
  "proc-macro2",
@@ -4414,7 +4414,7 @@ dependencies = [
 [[package]]
 name = "frame-election-provider-support"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-election-provider-solution-type",
  "frame-support",
@@ -4425,13 +4425,13 @@ dependencies = [
  "sp-core",
  "sp-npos-elections",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "frame-executive"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -4442,8 +4442,8 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -4461,7 +4461,7 @@ dependencies = [
 [[package]]
 name = "frame-metadata-hash-extension"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "docify",
@@ -4476,7 +4476,7 @@ dependencies = [
 [[package]]
 name = "frame-remote-externalities"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "indicatif",
@@ -4497,7 +4497,7 @@ dependencies = [
 [[package]]
 name = "frame-support"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "aquamarine",
  "array-bytes 6.2.3",
@@ -4520,7 +4520,7 @@ dependencies = [
  "sp-arithmetic",
  "sp-core",
  "sp-core-hashing-proc-macro",
- "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-genesis-builder",
  "sp-inherents",
  "sp-io",
@@ -4528,8 +4528,8 @@ dependencies = [
  "sp-runtime",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
  "static_assertions",
  "tt-call",
@@ -4538,7 +4538,7 @@ dependencies = [
 [[package]]
 name = "frame-support-procedural"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "Inflector",
  "cfg-expr",
@@ -4557,7 +4557,7 @@ dependencies = [
 [[package]]
 name = "frame-support-procedural-tools"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support-procedural-tools-derive",
  "proc-macro-crate 3.0.0",
@@ -4569,7 +4569,7 @@ dependencies = [
 [[package]]
 name = "frame-support-procedural-tools-derive"
 version = "3.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -4579,7 +4579,7 @@ dependencies = [
 [[package]]
 name = "frame-system"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cfg-if 1.0.0",
  "docify",
@@ -4591,7 +4591,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-version",
  "sp-weights",
 ]
@@ -4599,7 +4599,7 @@ dependencies = [
 [[package]]
 name = "frame-system-benchmarking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -4608,13 +4608,13 @@ dependencies = [
  "scale-info",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "frame-system-rpc-runtime-api"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "sp-api",
@@ -4623,13 +4623,13 @@ dependencies = [
 [[package]]
 name = "frame-try-runtime"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "parity-scale-codec 3.6.11",
  "sp-api",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -6819,7 +6819,7 @@ dependencies = [
 [[package]]
 name = "mmr-gadget"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "log",
@@ -6838,7 +6838,7 @@ dependencies = [
 [[package]]
 name = "mmr-rpc"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "anyhow",
  "jsonrpsee",
@@ -7172,7 +7172,7 @@ checksum = "43794a0ace135be66a25d3ae77d41b91615fb68ae937f904090203e81f755b65"
 [[package]]
 name = "node-primitives"
 version = "2.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "sp-core",
  "sp-runtime",
@@ -7427,7 +7427,7 @@ dependencies = [
 [[package]]
 name = "pallet-asset-rate"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7436,13 +7436,13 @@ dependencies = [
  "scale-info",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-asset-tx-payment"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7454,13 +7454,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-assets"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7470,13 +7470,13 @@ dependencies = [
  "scale-info",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-aura"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -7487,13 +7487,13 @@ dependencies = [
  "sp-application-crypto",
  "sp-consensus-aura",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-authority-discovery"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -7503,7 +7503,7 @@ dependencies = [
  "sp-application-crypto",
  "sp-authority-discovery",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7534,14 +7534,14 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "substrate-test-utils",
 ]
 
 [[package]]
 name = "pallet-authorship"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -7549,7 +7549,7 @@ dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7576,7 +7576,7 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7604,7 +7604,7 @@ dependencies = [
  "sp-io",
  "sp-keystore",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7626,7 +7626,7 @@ dependencies = [
  "sp-runtime",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7655,7 +7655,7 @@ dependencies = [
  "sp-io",
  "sp-keystore",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7676,13 +7676,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-babe"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7700,13 +7700,13 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-bags-list"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "aquamarine",
  "docify",
@@ -7721,14 +7721,14 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-balances"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7737,13 +7737,13 @@ dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-beefy"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -7757,13 +7757,13 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-beefy-mmr"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "binary-merkle-tree",
@@ -7782,13 +7782,13 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-bounties"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7800,13 +7800,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-broker"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "frame-benchmarking",
@@ -7817,13 +7817,13 @@ dependencies = [
  "sp-arithmetic",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-child-bounties"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7836,13 +7836,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-collator-selection"
 version = "3.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7855,13 +7855,13 @@ dependencies = [
  "scale-info",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-collective"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7872,13 +7872,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-conviction-voting"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "assert_matches",
  "frame-benchmarking",
@@ -7889,13 +7889,13 @@ dependencies = [
  "serde",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-democracy"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7907,13 +7907,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-election-provider-multi-phase"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-election-provider-support",
@@ -7929,14 +7929,14 @@ dependencies = [
  "sp-io",
  "sp-npos-elections",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "strum",
 ]
 
 [[package]]
 name = "pallet-election-provider-support-benchmarking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-election-provider-support",
@@ -7944,13 +7944,13 @@ dependencies = [
  "parity-scale-codec 3.6.11",
  "sp-npos-elections",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-elections-phragmen"
 version = "5.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -7963,7 +7963,7 @@ dependencies = [
  "sp-npos-elections",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -7995,7 +7995,7 @@ dependencies = [
  "sp-runtime",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8010,7 +8010,7 @@ dependencies = [
  "sp-application-crypto",
  "sp-avn-common",
  "sp-core",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8042,13 +8042,13 @@ dependencies = [
  "sp-runtime",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-fast-unstake"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "docify",
  "frame-benchmarking",
@@ -8061,13 +8061,13 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-grandpa"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8084,13 +8084,13 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-identity"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "enumflags2",
  "frame-benchmarking",
@@ -8101,13 +8101,13 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-im-online"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8121,13 +8121,13 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-indices"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8138,13 +8138,13 @@ dependencies = [
  "sp-io",
  "sp-keyring",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-membership"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8155,13 +8155,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-message-queue"
 version = "7.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "environmental",
  "frame-benchmarking",
@@ -8174,14 +8174,14 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
 ]
 
 [[package]]
 name = "pallet-mmr"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8193,13 +8193,13 @@ dependencies = [
  "sp-io",
  "sp-mmr-primitives",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-multisig"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8209,7 +8209,7 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8230,13 +8230,13 @@ dependencies = [
  "sp-io",
  "sp-keystore",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-nis"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8246,13 +8246,13 @@ dependencies = [
  "sp-arithmetic",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-nomination-pools"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -8264,14 +8264,14 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-nomination-pools-benchmarking"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-election-provider-support",
@@ -8283,26 +8283,26 @@ dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-runtime",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-nomination-pools-runtime-api"
 version = "1.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "pallet-nomination-pools",
  "parity-scale-codec 3.6.11",
  "sp-api",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-offences"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -8313,13 +8313,13 @@ dependencies = [
  "serde",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-offences-benchmarking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-election-provider-support",
@@ -8337,7 +8337,7 @@ dependencies = [
  "scale-info",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8372,14 +8372,14 @@ dependencies = [
  "sp-keystore",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "substrate-fixed",
 ]
 
 [[package]]
 name = "pallet-preimage"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8390,13 +8390,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-proxy"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8405,13 +8405,13 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-ranked-collective"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8423,13 +8423,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-recovery"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8438,13 +8438,13 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-referenda"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "assert_matches",
  "frame-benchmarking",
@@ -8457,13 +8457,13 @@ dependencies = [
  "sp-arithmetic",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-root-testing"
 version = "1.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -8472,13 +8472,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-scheduler"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "docify",
  "frame-benchmarking",
@@ -8489,14 +8489,14 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
 ]
 
 [[package]]
 name = "pallet-session"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -8511,14 +8511,14 @@ dependencies = [
  "sp-session",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
 ]
 
 [[package]]
 name = "pallet-session-benchmarking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8529,13 +8529,13 @@ dependencies = [
  "rand 0.8.5",
  "sp-runtime",
  "sp-session",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-society"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8547,13 +8547,13 @@ dependencies = [
  "sp-arithmetic",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-staking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-election-provider-support",
@@ -8570,13 +8570,13 @@ dependencies = [
  "sp-io",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-staking-reward-curve"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro-crate 3.0.0",
  "proc-macro2",
@@ -8587,7 +8587,7 @@ dependencies = [
 [[package]]
 name = "pallet-staking-reward-fn"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "log",
  "sp-arithmetic",
@@ -8596,7 +8596,7 @@ dependencies = [
 [[package]]
 name = "pallet-staking-runtime-api"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "sp-api",
@@ -8606,7 +8606,7 @@ dependencies = [
 [[package]]
 name = "pallet-state-trie-migration"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8617,13 +8617,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-sudo"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "docify",
  "frame-benchmarking",
@@ -8633,7 +8633,7 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8663,13 +8663,13 @@ dependencies = [
  "sp-runtime",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-timestamp"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "docify",
  "frame-benchmarking",
@@ -8681,15 +8681,15 @@ dependencies = [
  "sp-inherents",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-timestamp",
 ]
 
 [[package]]
 name = "pallet-tips"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8702,7 +8702,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8733,13 +8733,13 @@ dependencies = [
  "sp-keystore",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-transaction-payment"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -8749,13 +8749,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-transaction-payment-rpc"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "jsonrpsee",
  "pallet-transaction-payment-rpc-runtime-api",
@@ -8771,7 +8771,7 @@ dependencies = [
 [[package]]
 name = "pallet-transaction-payment-rpc-runtime-api"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "pallet-transaction-payment",
  "parity-scale-codec 3.6.11",
@@ -8783,7 +8783,7 @@ dependencies = [
 [[package]]
 name = "pallet-treasury"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "docify",
  "frame-benchmarking",
@@ -8796,13 +8796,13 @@ dependencies = [
  "serde",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-utility"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8812,7 +8812,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -8847,13 +8847,13 @@ dependencies = [
  "sp-runtime",
  "sp-staking",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-vesting"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8862,13 +8862,13 @@ dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-whitelist"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8877,13 +8877,13 @@ dependencies = [
  "scale-info",
  "sp-api",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "pallet-xcm"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bounded-collections",
  "frame-benchmarking",
@@ -8897,7 +8897,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
  "staging-xcm-builder",
  "staging-xcm-executor",
@@ -8906,7 +8906,7 @@ dependencies = [
 [[package]]
 name = "pallet-xcm-benchmarks"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-benchmarking",
  "frame-support",
@@ -8916,7 +8916,7 @@ dependencies = [
  "scale-info",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
  "staging-xcm-builder",
  "staging-xcm-executor",
@@ -8925,7 +8925,7 @@ dependencies = [
 [[package]]
 name = "parachains-common"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-primitives-core",
  "cumulus-primitives-utility",
@@ -8950,7 +8950,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-parachain-info",
  "staging-xcm",
  "staging-xcm-builder",
@@ -9299,7 +9299,7 @@ checksum = "e3d7ddaed09e0eb771a79ab0fd64609ba0afb0a8366421957936ad14cbd13630"
 [[package]]
 name = "polkadot-approval-distribution"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "futures",
@@ -9319,7 +9319,7 @@ dependencies = [
 [[package]]
 name = "polkadot-availability-bitfield-distribution"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "always-assert",
  "futures",
@@ -9335,7 +9335,7 @@ dependencies = [
 [[package]]
 name = "polkadot-availability-distribution"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "derive_more 0.99.17",
  "fatality",
@@ -9358,7 +9358,7 @@ dependencies = [
 [[package]]
 name = "polkadot-availability-recovery"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "fatality",
@@ -9381,7 +9381,7 @@ dependencies = [
 [[package]]
 name = "polkadot-cli"
 version = "1.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cfg-if 1.0.0",
  "clap 4.4.14",
@@ -9409,7 +9409,7 @@ dependencies = [
 [[package]]
 name = "polkadot-collator-protocol"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "fatality",
@@ -9431,19 +9431,19 @@ dependencies = [
 [[package]]
 name = "polkadot-core-primitives"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "polkadot-dispute-distribution"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "derive_more 0.99.17",
  "fatality",
@@ -9468,7 +9468,7 @@ dependencies = [
 [[package]]
 name = "polkadot-erasure-coding"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "polkadot-node-primitives",
@@ -9482,7 +9482,7 @@ dependencies = [
 [[package]]
 name = "polkadot-gossip-support"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9503,7 +9503,7 @@ dependencies = [
 [[package]]
 name = "polkadot-network-bridge"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "always-assert",
  "async-trait",
@@ -9526,7 +9526,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-collation-generation"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "parity-scale-codec 3.6.11",
@@ -9544,7 +9544,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-approval-voting"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "derive_more 0.99.17",
@@ -9577,7 +9577,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-av-store"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "futures",
@@ -9599,7 +9599,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-backing"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "fatality",
@@ -9618,7 +9618,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-bitfield-signing"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "polkadot-node-subsystem",
@@ -9633,7 +9633,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-candidate-validation"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -9654,7 +9654,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-chain-api"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "polkadot-node-metrics",
@@ -9668,7 +9668,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-chain-selection"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "futures-timer",
@@ -9685,7 +9685,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-dispute-coordinator"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "fatality",
  "futures",
@@ -9704,7 +9704,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-parachains-inherent"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -9721,7 +9721,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-prospective-parachains"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "fatality",
@@ -9738,7 +9738,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-provisioner"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "fatality",
@@ -9755,7 +9755,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-pvf"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "always-assert",
  "array-bytes 6.2.3",
@@ -9778,7 +9778,7 @@ dependencies = [
  "slotmap",
  "sp-core",
  "sp-maybe-compressed-blob",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "tempfile",
  "thiserror",
  "tokio",
@@ -9788,7 +9788,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-pvf-checker"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "polkadot-node-primitives",
@@ -9804,7 +9804,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-pvf-common"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cfg-if 1.0.0",
  "cpu-time",
@@ -9819,9 +9819,9 @@ dependencies = [
  "sc-executor-wasmtime",
  "seccompiler",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-io",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
  "tracing-gum",
 ]
@@ -9829,7 +9829,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-core-runtime-api"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "polkadot-node-metrics",
@@ -9844,7 +9844,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-jaeger"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "lazy_static",
  "log",
@@ -9862,7 +9862,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-metrics"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bs58 0.5.0",
  "futures",
@@ -9881,7 +9881,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-network-protocol"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-channel 1.9.0",
  "async-trait",
@@ -9905,7 +9905,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-primitives"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "bounded-vec",
@@ -9928,7 +9928,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-subsystem"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "polkadot-node-jaeger",
  "polkadot-node-subsystem-types",
@@ -9938,7 +9938,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-subsystem-types"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "bitvec 1.0.1",
@@ -9966,7 +9966,7 @@ dependencies = [
 [[package]]
 name = "polkadot-node-subsystem-util"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "derive_more 0.99.17",
@@ -10001,7 +10001,7 @@ dependencies = [
 [[package]]
 name = "polkadot-overseer"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -10023,7 +10023,7 @@ dependencies = [
 [[package]]
 name = "polkadot-parachain-primitives"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bounded-collections",
  "derive_more 0.99.17",
@@ -10033,14 +10033,14 @@ dependencies = [
  "serde",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
 ]
 
 [[package]]
 name = "polkadot-primitives"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "hex-literal",
@@ -10060,13 +10060,13 @@ dependencies = [
  "sp-keystore",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "polkadot-rpc"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "jsonrpsee",
  "mmr-rpc",
@@ -10099,7 +10099,7 @@ dependencies = [
 [[package]]
 name = "polkadot-runtime-common"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitvec 1.0.1",
  "frame-benchmarking",
@@ -10141,7 +10141,7 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
  "staging-xcm-builder",
  "staging-xcm-executor",
@@ -10151,20 +10151,20 @@ dependencies = [
 [[package]]
 name = "polkadot-runtime-metrics"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bs58 0.5.0",
  "frame-benchmarking",
  "parity-scale-codec 3.6.11",
  "polkadot-primitives",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "polkadot-runtime-parachains"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bitflags 1.3.2",
  "bitvec 1.0.1",
@@ -10204,7 +10204,7 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "staging-xcm",
  "staging-xcm-executor",
  "static_assertions",
@@ -10213,7 +10213,7 @@ dependencies = [
 [[package]]
 name = "polkadot-service"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "frame-benchmarking",
@@ -10316,7 +10316,7 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-state-machine",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-timestamp",
  "sp-transaction-pool",
  "sp-version",
@@ -10330,7 +10330,7 @@ dependencies = [
 [[package]]
 name = "polkadot-statement-distribution"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "arrayvec 0.7.4",
  "bitvec 1.0.1",
@@ -10353,7 +10353,7 @@ dependencies = [
 [[package]]
 name = "polkadot-statement-table"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "polkadot-primitives",
@@ -11305,7 +11305,7 @@ dependencies = [
 [[package]]
 name = "rococo-runtime"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "binary-merkle-tree",
  "frame-benchmarking",
@@ -11388,8 +11388,8 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-transaction-pool",
  "sp-version",
  "staging-xcm",
@@ -11402,7 +11402,7 @@ dependencies = [
 [[package]]
 name = "rococo-runtime-constants"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "polkadot-primitives",
@@ -11723,18 +11723,18 @@ dependencies = [
 [[package]]
 name = "sc-allocator"
 version = "4.1.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "log",
  "sp-core",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
 ]
 
 [[package]]
 name = "sc-authority-discovery"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -11763,7 +11763,7 @@ dependencies = [
 [[package]]
 name = "sc-basic-authorship"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "futures-timer",
@@ -11785,7 +11785,7 @@ dependencies = [
 [[package]]
 name = "sc-block-builder"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "sp-api",
@@ -11800,7 +11800,7 @@ dependencies = [
 [[package]]
 name = "sc-chain-spec"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "docify",
@@ -11825,7 +11825,7 @@ dependencies = [
 [[package]]
 name = "sc-chain-spec-derive"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro-crate 3.0.0",
  "proc-macro2",
@@ -11836,7 +11836,7 @@ dependencies = [
 [[package]]
 name = "sc-cli"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "bip39",
@@ -11877,7 +11877,7 @@ dependencies = [
 [[package]]
 name = "sc-client-api"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "fnv",
  "futures",
@@ -11892,11 +11892,11 @@ dependencies = [
  "sp-consensus",
  "sp-core",
  "sp-database",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-runtime",
  "sp-state-machine",
  "sp-statement-store",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "substrate-prometheus-endpoint",
 ]
@@ -11904,7 +11904,7 @@ dependencies = [
 [[package]]
 name = "sc-client-db"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "hash-db",
  "kvdb",
@@ -11930,7 +11930,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -11955,7 +11955,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-aura"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -11984,7 +11984,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-babe"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "fork-tree",
@@ -12019,7 +12019,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-babe-rpc"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -12041,7 +12041,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-beefy"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "async-channel 1.9.0",
@@ -12076,7 +12076,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-beefy-rpc"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -12095,7 +12095,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-epochs"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "fork-tree",
  "parity-scale-codec 3.6.11",
@@ -12108,7 +12108,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-grandpa"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ahash 0.8.7",
  "array-bytes 6.2.3",
@@ -12150,7 +12150,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-grandpa-rpc"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "finality-grandpa",
  "futures",
@@ -12170,7 +12170,7 @@ dependencies = [
 [[package]]
 name = "sc-consensus-slots"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -12193,7 +12193,7 @@ dependencies = [
 [[package]]
 name = "sc-executor"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "parking_lot 0.12.1",
@@ -12202,24 +12202,24 @@ dependencies = [
  "schnellru",
  "sp-api",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-io",
  "sp-panic-handler",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "sp-version",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "tracing",
 ]
 
 [[package]]
 name = "sc-executor-common"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "sc-allocator",
  "sp-maybe-compressed-blob",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
  "wasm-instrument",
 ]
@@ -12227,7 +12227,7 @@ dependencies = [
 [[package]]
 name = "sc-executor-wasmtime"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "anyhow",
  "cfg-if 1.0.0",
@@ -12237,15 +12237,15 @@ dependencies = [
  "rustix 0.36.15",
  "sc-allocator",
  "sc-executor-common",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "wasmtime",
 ]
 
 [[package]]
 name = "sc-informant"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ansi_term",
  "futures",
@@ -12262,7 +12262,7 @@ dependencies = [
 [[package]]
 name = "sc-keystore"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "parking_lot 0.12.1",
@@ -12276,7 +12276,7 @@ dependencies = [
 [[package]]
 name = "sc-mixnet"
 version = "0.1.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 4.2.0",
  "arrayvec 0.7.4",
@@ -12305,7 +12305,7 @@ dependencies = [
 [[package]]
 name = "sc-network"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "async-channel 1.9.0",
@@ -12348,7 +12348,7 @@ dependencies = [
 [[package]]
 name = "sc-network-bitswap"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-channel 1.9.0",
  "cid",
@@ -12368,7 +12368,7 @@ dependencies = [
 [[package]]
 name = "sc-network-common"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "bitflags 1.3.2",
@@ -12385,7 +12385,7 @@ dependencies = [
 [[package]]
 name = "sc-network-gossip"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ahash 0.8.7",
  "futures",
@@ -12404,7 +12404,7 @@ dependencies = [
 [[package]]
 name = "sc-network-light"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "async-channel 1.9.0",
@@ -12425,7 +12425,7 @@ dependencies = [
 [[package]]
 name = "sc-network-sync"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "async-channel 1.9.0",
@@ -12461,7 +12461,7 @@ dependencies = [
 [[package]]
 name = "sc-network-transactions"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "futures",
@@ -12480,7 +12480,7 @@ dependencies = [
 [[package]]
 name = "sc-offchain"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "bytes",
@@ -12503,7 +12503,7 @@ dependencies = [
  "sc-utils",
  "sp-api",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-keystore",
  "sp-offchain",
  "sp-runtime",
@@ -12514,7 +12514,7 @@ dependencies = [
 [[package]]
 name = "sc-proposer-metrics"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "log",
  "substrate-prometheus-endpoint",
@@ -12523,7 +12523,7 @@ dependencies = [
 [[package]]
 name = "sc-rpc"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "jsonrpsee",
@@ -12555,7 +12555,7 @@ dependencies = [
 [[package]]
 name = "sc-rpc-api"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec 3.6.11",
@@ -12575,7 +12575,7 @@ dependencies = [
 [[package]]
 name = "sc-rpc-server"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "http",
  "jsonrpsee",
@@ -12590,7 +12590,7 @@ dependencies = [
 [[package]]
 name = "sc-rpc-spec-v2"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "futures",
@@ -12619,7 +12619,7 @@ dependencies = [
 [[package]]
 name = "sc-service"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "directories",
@@ -12660,12 +12660,12 @@ dependencies = [
  "sp-blockchain",
  "sp-consensus",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-keystore",
  "sp-runtime",
  "sp-session",
  "sp-state-machine",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-transaction-pool",
  "sp-transaction-storage-proof",
  "sp-trie",
@@ -12682,7 +12682,7 @@ dependencies = [
 [[package]]
 name = "sc-state-db"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "log",
  "parity-scale-codec 3.6.11",
@@ -12693,7 +12693,7 @@ dependencies = [
 [[package]]
 name = "sc-storage-monitor"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "clap 4.4.14",
  "fs4",
@@ -12706,7 +12706,7 @@ dependencies = [
 [[package]]
 name = "sc-sync-state-rpc"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec 3.6.11",
@@ -12725,7 +12725,7 @@ dependencies = [
 [[package]]
 name = "sc-sysinfo"
 version = "6.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "derive_more 0.99.17",
  "futures",
@@ -12739,13 +12739,13 @@ dependencies = [
  "serde_json",
  "sp-core",
  "sp-io",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sc-telemetry"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "chrono",
  "futures",
@@ -12764,7 +12764,7 @@ dependencies = [
 [[package]]
 name = "sc-tracing"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ansi_term",
  "chrono",
@@ -12784,7 +12784,7 @@ dependencies = [
  "sp-core",
  "sp-rpc",
  "sp-runtime",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
  "tracing",
  "tracing-log",
@@ -12794,7 +12794,7 @@ dependencies = [
 [[package]]
 name = "sc-tracing-proc-macro"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro-crate 3.0.0",
  "proc-macro2",
@@ -12805,7 +12805,7 @@ dependencies = [
 [[package]]
 name = "sc-transaction-pool"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -12822,7 +12822,7 @@ dependencies = [
  "sp-blockchain",
  "sp-core",
  "sp-runtime",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-transaction-pool",
  "substrate-prometheus-endpoint",
  "thiserror",
@@ -12831,7 +12831,7 @@ dependencies = [
 [[package]]
 name = "sc-transaction-pool-api"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -12847,7 +12847,7 @@ dependencies = [
 [[package]]
 name = "sc-utils"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-channel 1.9.0",
  "futures",
@@ -13438,13 +13438,13 @@ checksum = "826167069c09b99d56f31e9ae5c99049e932a98c9dc2dac47645b08dbbf76ba7"
 [[package]]
 name = "slot-range-helper"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "enumn",
  "parity-scale-codec 3.6.11",
  "paste 1.0.14",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -13632,7 +13632,7 @@ dependencies = [
 [[package]]
 name = "sp-api"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "hash-db",
  "log",
@@ -13640,11 +13640,11 @@ dependencies = [
  "scale-info",
  "sp-api-proc-macro",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-metadata-ir",
  "sp-runtime",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "sp-version",
  "thiserror",
@@ -13653,7 +13653,7 @@ dependencies = [
 [[package]]
 name = "sp-api-proc-macro"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "Inflector",
  "blake2 0.10.6",
@@ -13667,27 +13667,27 @@ dependencies = [
 [[package]]
 name = "sp-application-crypto"
 version = "23.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "serde",
  "sp-core",
  "sp-io",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-arithmetic"
 version = "16.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "integer-sqrt",
  "num-traits",
  "parity-scale-codec 3.6.11",
  "scale-info",
  "serde",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "static_assertions",
 ]
 
@@ -13712,14 +13712,14 @@ dependencies = [
 [[package]]
 name = "sp-authority-discovery"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-api",
  "sp-application-crypto",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -13742,25 +13742,25 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "strum",
 ]
 
 [[package]]
 name = "sp-block-builder"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "sp-api",
  "sp-inherents",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-blockchain"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "log",
@@ -13778,7 +13778,7 @@ dependencies = [
 [[package]]
 name = "sp-consensus"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "futures",
@@ -13793,7 +13793,7 @@ dependencies = [
 [[package]]
 name = "sp-consensus-aura"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "parity-scale-codec 3.6.11",
@@ -13803,14 +13803,14 @@ dependencies = [
  "sp-consensus-slots",
  "sp-inherents",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-timestamp",
 ]
 
 [[package]]
 name = "sp-consensus-babe"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "parity-scale-codec 3.6.11",
@@ -13822,14 +13822,14 @@ dependencies = [
  "sp-core",
  "sp-inherents",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-timestamp",
 ]
 
 [[package]]
 name = "sp-consensus-beefy"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "lazy_static",
  "parity-scale-codec 3.6.11",
@@ -13841,14 +13841,14 @@ dependencies = [
  "sp-io",
  "sp-mmr-primitives",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "strum",
 ]
 
 [[package]]
 name = "sp-consensus-grandpa"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "finality-grandpa",
  "log",
@@ -13860,25 +13860,25 @@ dependencies = [
  "sp-core",
  "sp-keystore",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-consensus-slots"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "serde",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-timestamp",
 ]
 
 [[package]]
 name = "sp-core"
 version = "21.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "bandersnatch_vrfs",
@@ -13908,11 +13908,11 @@ dependencies = [
  "secrecy",
  "serde",
  "sp-core-hashing",
- "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "ss58-registry",
  "substrate-bip39",
  "thiserror",
@@ -13924,7 +13924,7 @@ dependencies = [
 [[package]]
 name = "sp-core-hashing"
 version = "9.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -13937,7 +13937,7 @@ dependencies = [
 [[package]]
 name = "sp-core-hashing-proc-macro"
 version = "9.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "quote",
  "sp-core-hashing",
@@ -13968,7 +13968,7 @@ dependencies = [
 [[package]]
 name = "sp-database"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "kvdb",
  "parking_lot 0.12.1",
@@ -13977,7 +13977,7 @@ dependencies = [
 [[package]]
 name = "sp-debug-derive"
 version = "8.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -13997,12 +13997,12 @@ dependencies = [
 [[package]]
 name = "sp-externalities"
 version = "0.19.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "environmental",
  "parity-scale-codec 3.6.11",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -14019,32 +14019,32 @@ dependencies = [
 [[package]]
 name = "sp-genesis-builder"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "serde_json",
  "sp-api",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-inherents"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "impl-trait-for-tuples",
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
 ]
 
 [[package]]
 name = "sp-io"
 version = "23.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bytes",
  "ed25519-dalek",
@@ -14054,12 +14054,12 @@ dependencies = [
  "rustversion",
  "secp256k1 0.28.0",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-keystore",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-state-machine",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "tracing",
  "tracing-core",
@@ -14068,7 +14068,7 @@ dependencies = [
 [[package]]
 name = "sp-keyring"
 version = "24.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "sp-core",
  "sp-runtime",
@@ -14078,19 +14078,19 @@ dependencies = [
 [[package]]
 name = "sp-keystore"
 version = "0.27.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "parking_lot 0.12.1",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
 ]
 
 [[package]]
 name = "sp-maybe-compressed-blob"
 version = "4.1.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "thiserror",
  "zstd 0.12.4",
@@ -14099,30 +14099,30 @@ dependencies = [
 [[package]]
 name = "sp-metadata-ir"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-metadata",
  "parity-scale-codec 3.6.11",
  "scale-info",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-mixnet"
 version = "0.1.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-api",
  "sp-application-crypto",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-mmr-primitives"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ckb-merkle-mountain-range",
  "log",
@@ -14131,16 +14131,16 @@ dependencies = [
  "serde",
  "sp-api",
  "sp-core",
- "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
 ]
 
 [[package]]
 name = "sp-npos-elections"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
@@ -14148,13 +14148,13 @@ dependencies = [
  "sp-arithmetic",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-offchain"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "sp-api",
  "sp-core",
@@ -14164,7 +14164,7 @@ dependencies = [
 [[package]]
 name = "sp-panic-handler"
 version = "8.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "backtrace",
  "lazy_static",
@@ -14174,7 +14174,7 @@ dependencies = [
 [[package]]
 name = "sp-rpc"
 version = "6.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "rustc-hash 1.1.0",
  "serde",
@@ -14184,7 +14184,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime"
 version = "24.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "docify",
  "either",
@@ -14201,25 +14201,25 @@ dependencies = [
  "sp-arithmetic",
  "sp-core",
  "sp-io",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
 ]
 
 [[package]]
 name = "sp-runtime-interface"
 version = "17.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bytes",
  "impl-trait-for-tuples",
  "parity-scale-codec 3.6.11",
  "primitive-types 0.12.1",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-runtime-interface-proc-macro 11.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-runtime-interface-proc-macro 11.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-tracing 10.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-wasm-interface 14.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "static_assertions",
 ]
 
@@ -14244,7 +14244,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface-proc-macro"
 version = "11.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "Inflector",
  "expander 2.0.0",
@@ -14269,7 +14269,7 @@ dependencies = [
 [[package]]
 name = "sp-session"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
@@ -14278,13 +14278,13 @@ dependencies = [
  "sp-keystore",
  "sp-runtime",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-staking"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec 3.6.11",
@@ -14292,13 +14292,13 @@ dependencies = [
  "serde",
  "sp-core",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-state-machine"
 version = "0.28.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "hash-db",
  "log",
@@ -14307,9 +14307,9 @@ dependencies = [
  "rand 0.8.5",
  "smallvec",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-panic-handler",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
  "thiserror",
  "tracing",
@@ -14319,7 +14319,7 @@ dependencies = [
 [[package]]
 name = "sp-statement-store"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "aes-gcm 0.10.3",
  "curve25519-dalek 4.1.1",
@@ -14332,10 +14332,10 @@ dependencies = [
  "sp-api",
  "sp-application-crypto",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-runtime",
- "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-runtime-interface 17.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
  "x25519-dalek 2.0.0",
 ]
@@ -14343,7 +14343,7 @@ dependencies = [
 [[package]]
 name = "sp-std"
 version = "8.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 
 [[package]]
 name = "sp-std"
@@ -14353,14 +14353,14 @@ source = "git+https://github.com/paritytech/polkadot-sdk#82912acb33a9030c0ef3bf5
 [[package]]
 name = "sp-storage"
 version = "13.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "impl-serde 0.4.0",
  "parity-scale-codec 3.6.11",
  "ref-cast",
  "serde",
- "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -14379,23 +14379,23 @@ dependencies = [
 [[package]]
 name = "sp-timestamp"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "parity-scale-codec 3.6.11",
  "sp-inherents",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
 ]
 
 [[package]]
 name = "sp-tracing"
 version = "10.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "tracing",
  "tracing-core",
  "tracing-subscriber",
@@ -14416,7 +14416,7 @@ dependencies = [
 [[package]]
 name = "sp-transaction-pool"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "sp-api",
  "sp-runtime",
@@ -14425,7 +14425,7 @@ dependencies = [
 [[package]]
 name = "sp-transaction-storage-proof"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "parity-scale-codec 3.6.11",
@@ -14433,14 +14433,14 @@ dependencies = [
  "sp-core",
  "sp-inherents",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-trie",
 ]
 
 [[package]]
 name = "sp-trie"
 version = "22.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ahash 0.8.7",
  "hash-db",
@@ -14453,8 +14453,8 @@ dependencies = [
  "scale-info",
  "schnellru",
  "sp-core",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "thiserror",
  "tracing",
  "trie-db",
@@ -14464,7 +14464,7 @@ dependencies = [
 [[package]]
 name = "sp-version"
 version = "22.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "impl-serde 0.4.0",
  "parity-scale-codec 3.6.11",
@@ -14473,7 +14473,7 @@ dependencies = [
  "serde",
  "sp-core-hashing-proc-macro",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-version-proc-macro",
  "thiserror",
 ]
@@ -14481,7 +14481,7 @@ dependencies = [
 [[package]]
 name = "sp-version-proc-macro"
 version = "8.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "parity-scale-codec 3.6.11",
  "proc-macro2",
@@ -14492,13 +14492,13 @@ dependencies = [
 [[package]]
 name = "sp-wasm-interface"
 version = "14.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "anyhow",
  "impl-trait-for-tuples",
  "log",
  "parity-scale-codec 3.6.11",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "wasmtime",
 ]
 
@@ -14529,13 +14529,13 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "sp-weights"
 version = "20.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "bounded-collections",
  "parity-scale-codec 3.6.11",
@@ -14543,8 +14543,8 @@ dependencies = [
  "serde",
  "smallvec",
  "sp-arithmetic",
- "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
@@ -14604,7 +14604,7 @@ checksum = "a8f112729512f8e442d81f95a8a7ddf2b7c6b8a1a6f509a95864142b30cab2d3"
 [[package]]
 name = "staging-parachain-info"
 version = "0.1.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "cumulus-primitives-core",
  "frame-support",
@@ -14612,13 +14612,13 @@ dependencies = [
  "parity-scale-codec 3.6.11",
  "scale-info",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
 ]
 
 [[package]]
 name = "staging-xcm"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "array-bytes 6.2.3",
  "bounded-collections",
@@ -14636,7 +14636,7 @@ dependencies = [
 [[package]]
 name = "staging-xcm-builder"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "frame-system",
@@ -14649,7 +14649,7 @@ dependencies = [
  "sp-arithmetic",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
  "staging-xcm",
  "staging-xcm-executor",
@@ -14658,7 +14658,7 @@ dependencies = [
 [[package]]
 name = "staging-xcm-executor"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "environmental",
  "frame-benchmarking",
@@ -14671,7 +14671,7 @@ dependencies = [
  "sp-core",
  "sp-io",
  "sp-runtime",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-weights",
  "staging-xcm",
 ]
@@ -14880,7 +14880,7 @@ dependencies = [
 [[package]]
 name = "substrate-build-script-utils"
 version = "3.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 
 [[package]]
 name = "substrate-fixed"
@@ -14895,7 +14895,7 @@ dependencies = [
 [[package]]
 name = "substrate-frame-rpc-system"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-system-rpc-runtime-api",
  "futures",
@@ -14914,7 +14914,7 @@ dependencies = [
 [[package]]
 name = "substrate-prometheus-endpoint"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "hyper",
  "log",
@@ -14926,7 +14926,7 @@ dependencies = [
 [[package]]
 name = "substrate-rpc-client"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "jsonrpsee",
@@ -14939,7 +14939,7 @@ dependencies = [
 [[package]]
 name = "substrate-state-trie-migration-rpc"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "jsonrpsee",
  "parity-scale-codec 3.6.11",
@@ -14956,7 +14956,7 @@ dependencies = [
 [[package]]
 name = "substrate-test-utils"
 version = "4.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "futures",
  "tokio",
@@ -14975,7 +14975,7 @@ dependencies = [
 [[package]]
 name = "substrate-wasm-builder"
 version = "5.0.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "ansi_term",
  "build-helper",
@@ -15670,7 +15670,7 @@ dependencies = [
 [[package]]
 name = "tracing-gum"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "coarsetime",
  "polkadot-primitives",
@@ -15681,7 +15681,7 @@ dependencies = [
 [[package]]
 name = "tracing-gum-proc-macro"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "expander 2.0.0",
  "proc-macro-crate 3.0.0",
@@ -15811,7 +15811,7 @@ checksum = "3528ecfd12c466c6f163363caf2d02a71161dd5e1cc6ae7b34207ea2d42d81ed"
 [[package]]
 name = "try-runtime-cli"
 version = "0.10.0-dev"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "async-trait",
  "clap 4.4.14",
@@ -15828,8 +15828,8 @@ dependencies = [
  "sp-consensus-aura",
  "sp-consensus-babe",
  "sp-core",
- "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-debug-derive 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-externalities 0.19.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-inherents",
  "sp-io",
  "sp-keystore",
@@ -16610,7 +16610,7 @@ checksum = "14247bb57be4f377dfb94c72830b8ce8fc6beac03cf4bf7b9732eadd414123fc"
 [[package]]
 name = "westend-runtime"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "binary-merkle-tree",
  "bitvec 1.0.1",
@@ -16703,8 +16703,8 @@ dependencies = [
  "sp-runtime",
  "sp-session",
  "sp-staking",
- "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
- "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick)",
+ "sp-std 8.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
+ "sp-storage 13.0.0 (git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix)",
  "sp-transaction-pool",
  "sp-version",
  "staging-xcm",
@@ -16717,7 +16717,7 @@ dependencies = [
 [[package]]
 name = "westend-runtime-constants"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "frame-support",
  "polkadot-primitives",
@@ -17150,7 +17150,7 @@ dependencies = [
 [[package]]
 name = "xcm-procedural"
 version = "1.0.0"
-source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-cherrypick#4d8e92461771d82178cb31183ca7c92415e96b23"
+source = "git+ssh://git@github.com/energywebfoundation/polkadot-sdk?branch=release-polkadot-v1.6.0-data-size-fix#4d8e92461771d82178cb31183ca7c92415e96b23"
 dependencies = [
  "Inflector",
  "proc-macro2",
