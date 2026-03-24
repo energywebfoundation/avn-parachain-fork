@@ -17,15 +17,15 @@ serde = "1.0.163"
 anyhow = "1.0.64"
 
 # primitives
-sp-core = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sp-runtime = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+sp-core = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sp-runtime = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
 
 # client dependencies
-sc-service = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-client-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-client-db = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-transaction-pool = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
-sc-transaction-pool-api = { git = "https://github.com/paritytech/polkadot-sdk", branch = "release-polkadot-v1.6.0" }
+sc-service = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-client-api = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-client-db = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-transaction-pool = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
+sc-transaction-pool-api = { git = "https://github.com/energywebfoundation/polkadot-sdk", branch = "polkadot-release-v1.6.0-233-hotfix" }
 
 [dev-dependencies]
 hex = "0.4"
