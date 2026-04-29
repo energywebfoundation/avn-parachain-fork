@@ -68,12 +68,13 @@ const MIN_VOTING_PERIOD: u32 = 25; // 5 MINUTES
 const MAX_VOTING_PERIOD: u32 = 28800; // 1 DAY
 const DEFAULT_VOTING_PERIOD: u32 = 600; // 30 MINUTES
 
-const STORAGE_VERSION: StorageVersion = StorageVersion::new(1);
+const STORAGE_VERSION: StorageVersion = StorageVersion::new(2);
 
 // used in benchmarks and weights calculation only
 const MAX_OFFENDERS: u32 = 2; // maximum of offenders need to be less one third of minimum validators so the benchmark won't panic
 const MAX_NUMBER_OF_ROOT_DATA_PER_RANGE: u32 = 2;
 
+pub mod migration;
 pub mod vote;
 use crate::vote::*;
 
